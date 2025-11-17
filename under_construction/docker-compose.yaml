@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: construction-app
+    restart: unless-stopped
+    ports:
+      - "1392:1337"
+    environment:
+      - FLAG_SECRET=SCH{I_W4n7_3aT_m0r3_C0ok1es_pL3As3}
