@@ -1,0 +1,4 @@
+flask
+selenium
+jwcrypto
+Flask-Limiter
